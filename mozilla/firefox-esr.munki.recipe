@@ -38,7 +38,7 @@ See the following URLs for more info:
     <key>MinimumVersion</key>
     <string>2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.firefox-esr</string>
+    <string>com.github.jschneppe.download.firefox-esr-en-US</string>
     <key>Process</key>
     <array>
         <dict>
