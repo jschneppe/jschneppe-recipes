@@ -12,7 +12,7 @@ See the following URLs for more info:
     http://ftp.mozilla.org/pub/firefox/releases/latest-esr/README.txt
     http://ftp.mozilla.org/pub/firefox/releases/latest-beta/README.txt</string>
     <key>Identifier</key>
-    <string>com.github.jschneppe.munki.firefox-esr-de</string>
+    <string>com.github.jschneppe.munki.firefox-esr</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
