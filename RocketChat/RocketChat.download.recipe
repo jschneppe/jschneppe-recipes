@@ -11,9 +11,9 @@
         <key>RELEASE</key>
         <string>Latest release</string>
         <key>NAME</key>
-        <string>rocket*.dmg</string>
-        <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
-        <string>true</string>
+        <string>rocketchat</string>
+        <key>PATTERN</key>
+        <string>https:[^ '"]*\.dmg</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.5.0</string>
