@@ -9,9 +9,9 @@
     <key>Input</key>
     <dict>
         <key>RELEASE</key>
-        <string>latest</string>
+        <string>Latest release</string>
         <key>NAME</key>
-        <string>RocketChat</string>
+        <string>rocket*.dmg</string>
         <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
     </dict>
     <key>MinimumVersion</key>
