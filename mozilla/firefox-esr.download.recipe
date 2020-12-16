@@ -16,9 +16,9 @@ See the following URLs for more info:
     <key>Input</key>
     <dict>
         <key>RELEASE</key>
-        <string>esr-latest</string>
+        <string>latest-esr</string>
         <key>LOCALE</key>
-        <string>de-DE</string>
+        <string>de</string>
         <key>NAME</key>
         <string>Firefox-esr</string>
         <key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
