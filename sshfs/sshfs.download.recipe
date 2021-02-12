@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of SSHFS.</string>
 	<key>Identifier</key>
-	<string>com.github.jeremylarose.download.SSHFS</string>
+	<string>com.github.jschneppe.download.sshfs</string>
 	<key>Input</key>
 	<dict>
 		<key>GITHUB_REPO</key>
