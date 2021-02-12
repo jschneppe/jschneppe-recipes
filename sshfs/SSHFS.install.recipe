@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Installs the latest version of SSHFS</string>
+	<string>Installs the latest version of sshfs</string>
 	<key>Identifier</key>
-	<string>com.github.jeremylarose.install.SSHFS</string>
+	<string>com.github.jschneppe.install.sshfs</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -14,7 +14,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jeremylarose.download.SSHFS</string>
+	<string>com.github.jschneppe.download.sshfs</string>
 	<key>Process</key>
 	<array>
 		<dict>
