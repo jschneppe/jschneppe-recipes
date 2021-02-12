@@ -5,7 +5,7 @@
 	<key>Comment</key>
 	<string>Downloads the latest version of SSHFS and imports it into Munki, requires fuse for macos</string>
 	<key>Identifier</key>
-	<string>com.github.jeremylarose.munki.SSHFS</string>
+	<string>com.github.jschneppe.munki.sshfs</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -37,7 +37,7 @@ This package contains a universal build of SSHFS, that is based on FUSE for OS X
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jeremylarose.download.SSHFS</string>
+	<string>com.github.jschneppe.download.sshfs</string>
 	<key>Process</key>
 	<array>
 		<dict>
