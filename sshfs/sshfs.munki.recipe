@@ -23,7 +23,7 @@
 
 This package contains a universal build of SSHFS, that is based on FUSE for OS X and supports Mac OS X 10.5 and later. FUSE for OS X needs to be installed separately. The latest version can be obtained from http://osxfuse.github.io.</string>
 			<key>category</key>
-			<string>System</string>
+			<string>Utilities</string>
 			<key>developer</key>
 			<string>Benjamin Fleischer</string>
 			<key>display_name</key>
