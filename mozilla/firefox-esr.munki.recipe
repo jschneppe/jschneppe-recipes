@@ -16,7 +16,7 @@ See the following URLs for more info:
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/firefox</string>
         <key>NAME</key>
-        <string>Firefox*esr</string>
+        <string>Firefox</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>

@@ -13,8 +13,6 @@ See the following URLs for more info:
 	<string>com.github.jschneppe.install.firefox-esr</string>
 	<key>Input</key>
 	<dict>
-		<key>NAME</key>
-		<string>Firefox-esr</string>
         <key>RELEASE</key>
         <string>latest</string>
 	</dict>
