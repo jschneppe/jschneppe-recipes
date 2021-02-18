@@ -15,7 +15,7 @@
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>vscode</string>
+		<string>Visual Studio Code</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -27,7 +27,7 @@
 			<key>developer</key>
 			<string>Microsoft Corporation</string>
 			<key>display_name</key>
-			<string>vscode</string>
+			<string>Visual Studio Code</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -37,7 +37,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jschneppe.download.Code</string>
+	<string>com.github.jschneppe.download.vscode</string>
 	<key>Process</key>
 	<array>
 		<dict>
