@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Loupe Browser 5.0.</string>
+	<key>Identifier</key>
+	<string>com.github.jschneppe.download.LoupeBrowser5.0</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Loupe Browser 5.0</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>https://cf.10xgenomics.com/releases/cell-exp/Loupe-Browser-5.0.1.dmg?Expires=1613692523&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZi4xMHhnZW5vbWljcy5jb20vcmVsZWFzZXMvY2VsbC1leHAvTG91cGUtQnJvd3Nlci01LjAuMS5kbWciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2MTM2OTI1MjN9fX1dfQ__&amp;Signature=R2hlhoAf0gt4-qv~3dXm0bnV7wVd5IOm2LEir4WHDZXTbX28OFfQm8xs5aTfpT7ejW08ak4GwsWENUuDewU41POcLDJzJZX90RhofUgLtLVMQ21~0nrF6XcHVv0vVOzE0hJT~HWA7CxHFAFluJzeqaA8CioYG1gd9Kjv-iwyMJOBFs81lDPPnWzcd3zMACbsvk9jPRkkotRYMj6F~FSemhZe-w74uTPgfk3oa6FJX0BtNCixrHXEym46RIMKEuaguTm9E1~ayfCDMVBvpnxrQV~xUvrFqOb7JBZVCaqCvvFi18SwCyBTqXwnRz5NHN1vKwQBFUlp0nxzzOwezWF9WQ__&amp;Key-Pair-Id=APKAI7S6A5RYOXBWRPDA</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%pathname%/Loupe Browser 5.0.app</string>
+				<key>requirement</key>
+				<string>identifier "com.10xgenomics.loupecellbrowser5" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "384T6Y7Q52"</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_plist_path</key>
+				<string>%pathname%/Loupe Browser 5.0.app/Contents/Info.plist</string>
+				<key>plist_version_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<key>Processor</key>
+			<string>Versioner</string>
+		</dict>
+	</array>
+</dict>
+</plist>
