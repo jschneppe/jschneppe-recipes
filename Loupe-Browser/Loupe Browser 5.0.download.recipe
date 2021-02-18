@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://cf.10xgenomics.com/releases/cell-exp/Loupe-Browser-*.dmg*</string>
+				<string>https://cf.10xgenomics.com/releases/cell-exp/Loupe-Browser-5.0.1.dmg?Expires=1613692523&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZi4xMHhnZW5vbWljcy5jb20vcmVsZWFzZXMvY2VsbC1leHAvTG91cGUtQnJvd3Nlci01LjAuMS5kbWciLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2MTM2OTI1MjN9fX1dfQ__&amp;Signature=R2hlhoAf0gt4-qv~3dXm0bnV7wVd5IOm2LEir4WHDZXTbX28OFfQm8xs5aTfpT7ejW08ak4GwsWENUuDewU41POcLDJzJZX90RhofUgLtLVMQ21~0nrF6XcHVv0vVOzE0hJT~HWA7CxHFAFluJzeqaA8CioYG1gd9Kjv-iwyMJOBFs81lDPPnWzcd3zMACbsvk9jPRkkotRYMj6F~FSemhZe-w74uTPgfk3oa6FJX0BtNCixrHXEym46RIMKEuaguTm9E1~ayfCDMVBvpnxrQV~xUvrFqOb7JBZVCaqCvvFi18SwCyBTqXwnRz5NHN1vKwQBFUlp0nxzzOwezWF9WQ__&amp;Key-Pair-Id=APKAI7S6A5RYOXBWRPDA</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
