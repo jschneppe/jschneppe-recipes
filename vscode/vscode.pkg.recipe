@@ -7,18 +7,18 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Code and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.jschneppe.pkg.Code</string>
+	<string>com.github.jschneppe.pkg.vscode</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
 		<string>Visual Studio Code</string>
 		<key>NAME</key>
-		<string>Code</string>
+		<string>vscode</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jschneppe.download.Code</string>
+	<string>com.github.jschneppe.download.vscode</string>
 	<key>Process</key>
 	<array>
 		<dict>
