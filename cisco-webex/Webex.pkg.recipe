@@ -5,18 +5,18 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Loupe Browser 5.0 and creates a package.</string>
+	<string>Downloads the latest version of Webex and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.jschneppe.pkg.LoupeBrowser5.0</string>
+	<string>com.github.jschneppe.pkg.Webex</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Loupe Browser 5.0</string>
+		<string>Webex</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jschneppe.download.LoupeBrowser5.0</string>
+	<string>com.github.jschneppe.download.Webex</string>
 	<key>Process</key>
 	<array>
 		<dict>

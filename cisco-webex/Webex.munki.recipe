@@ -5,15 +5,15 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Loupe Browser 5.0 and imports it into Munki.</string>
+	<string>Downloads the latest version of Webex and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.jschneppe.munki.LoupeBrowser5.0</string>
+	<string>com.github.jschneppe.munki.Webex</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>Loupe Browser 5.0</string>
+		<string>Webex</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,11 +21,11 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Loupe provides a magnified view of what’s on-screen under your mouse cursor?—?designed from the start to be easy on your computer while also being feature rich.</string>
+			<string>Make teamwork your best work.</string>
 			<key>developer</key>
-			<string>10X Genomics, Inc.</string>
+			<string>Cisco</string>
 			<key>display_name</key>
-			<string>Loupe Browser 5.0</string>
+			<string>Webex</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -35,9 +35,21 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jschneppe.download.LoupeBrowser5.0</string>
+	<string>com.github.jschneppe.download.Webex</string>
 	<key>Process</key>
 	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>additional_pkginfo</key>
+				<dict>
+					<key>version</key>
+					<string>%version%</string>
+				</dict>
+			</dict>
+			<key>Processor</key>
+			<string>MunkiPkginfoMerger</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -45,6 +57,8 @@
 				<string>%pathname%</string>
 				<key>repo_subdirectory</key>
 				<string>%MUNKI_REPO_SUBDIR%</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleVersion</string>
 			</dict>
 			<key>Processor</key>
 			<string>MunkiImporter</string>
