@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of VLC media player.</string>
 	<key>Identifier</key>
-	<string>com.github.jschneppe.install.VLCmediaplayer</string>
+	<string>com.github.jschneppe.install.VLC_arm</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -18,7 +18,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jschneppe.download.VLCmediaplayer</string>
+	<string>com.github.jschneppe.download.VLC_arm</string>
 	<key>Process</key>
 	<array>
 		<dict>

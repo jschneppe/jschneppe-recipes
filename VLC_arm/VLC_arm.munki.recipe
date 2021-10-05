@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of VLC media player and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.jschneppe.munki.VLCmediaplayer</string>
+	<string>com.github.jschneppe.munki.VLC_arm</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -37,7 +37,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jschneppe.download.VLCmediaplayer</string>
+	<string>com.github.jschneppe.download.VLC_arm</string>
 	<key>Process</key>
 	<array>
 		<dict>
