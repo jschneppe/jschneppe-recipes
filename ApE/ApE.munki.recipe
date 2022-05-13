@@ -22,8 +22,10 @@
 			</array>
 			<key>description</key>
 			<string>Biological simulation.</string>
+			<key>category</key>
+			<string>Biology</string>
 			<key>developer</key>
-			<string></string>
+			<string>University of utah</string>
 			<key>display_name</key>
 			<string>ApE</string>
 			<key>name</key>

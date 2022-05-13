@@ -5,15 +5,17 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of ONLYOFFICE and imports it into Munki.</string>
+	<string>Downloads the latest version of PyCharm and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.jschneppe.munki.ONLYOFFICE</string>
+	<string>jschneppe.munki.PyCharm</string>
 	<key>Input</key>
 	<dict>
+		<key>APP_FILENAME</key>
+		<string>PyCharm CE</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
-		<string>ONLYOFFICE</string>
+		<string>PyCharm</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,13 +23,11 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>An office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit local documents</string>
-			<key>category</key>
-			<string>Office</string>			
+			<string> </string>
 			<key>developer</key>
-			<string>Ascensio System SIA</string>
+			<string>JetBrains s.r.o.</string>
 			<key>display_name</key>
-			<string>ONLYOFFICE</string>
+			<string>PyCharm</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -37,25 +37,14 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jschneppe.download.ONLYOFFICE</string>
+	<string>jschneppe.download.PyCharm</string>
 	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-				<key>dmg_root</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
-			</dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
 				<key>pkg_path</key>
-				<string>%dmg_path%</string>
+				<string>%pathname%</string>
 				<key>repo_subdirectory</key>
 				<string>%MUNKI_REPO_SUBDIR%</string>
 			</dict>

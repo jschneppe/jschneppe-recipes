@@ -22,6 +22,8 @@
 			</array>
 			<key>description</key>
 			<string>Fast, safe Web browser.</string>
+			<key>category</key>
+			<string>Internet</string>
 			<key>developer</key>
 			<string>Mozilla</string>
 			<key>display_name</key>
