@@ -22,6 +22,8 @@
 			</array>
 			<key>description</key>
 			<string>Free, secure messaging for the Desktop.</string>
+			<key>category</key>
+			<string>Communication</string>
 			<key>developer</key>
 			<string>Quiet Riddle Ventures</string>
 			<key>display_name</key>
