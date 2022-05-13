@@ -22,6 +22,8 @@
 			</array>
 			<key>description</key>
 			<string>Official  OSX, Windows, and Linux Desktop Clients for Rocket.Chat </string>
+			<key>category</key>
+			<string>Communication</string>
 			<key>developer</key>
 			<string>Rocket.Chat Technologies Corp.</string>
 			<key>display_name</key>
