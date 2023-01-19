@@ -23,7 +23,7 @@
 			<key>description</key>
 			<string>Scientific image processing and analysis.</string>
 			<key>developer</key>
-			<string></string>
+			<string>National Institutes of Health</string>
 			<key>display_name</key>
 			<string>ImageJ</string>
 			<key>name</key>
