@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Firefox and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.jschneppe.munki.Firefox</string>
+	<string>jschneppe.munki.Firefox</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -21,9 +21,7 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Fast, safe Web browser.</string>
-			<key>category</key>
-			<string>Internet</string>
+			<string> </string>
 			<key>developer</key>
 			<string>Mozilla</string>
 			<key>display_name</key>
@@ -37,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jschneppe.download.Firefox</string>
+	<string>jschneppe.download.Firefox</string>
 	<key>Process</key>
 	<array>
 		<dict>
