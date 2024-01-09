@@ -20,8 +20,14 @@
 			<array>
 				<string>testing</string>
 			</array>
+			<key>supported_architectures</key>
+			<array>
+			   <string>arm64</string>
+			</array>
 			<key>description</key>
 			<string>binary releases of VS Code without MS branding/telemetry/licensing</string>
+			<key>category</key>
+			<string>Developer Tools</string>
 			<key>developer</key>
 			<string>Peter Squicciarini</string>
 			<key>display_name</key>
