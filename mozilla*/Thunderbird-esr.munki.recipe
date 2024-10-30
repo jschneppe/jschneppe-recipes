@@ -10,7 +10,7 @@ Set the 'OS_TYPE' variable to the required Operating Systems.
 
 List of available locale codes and supported Operating Systems here: https://releases.mozilla.org/pub/thunderbird/releases/latest-esr/README.txt</string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.munki.Thunderbird ESR</string>
+    <string>com.github.jschneppe.munki.Thunderbird ESR</string>
     <key>Input</key>
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
@@ -38,7 +38,7 @@ List of available locale codes and supported Operating Systems here: https://rel
     <key>MinimumVersion</key>
     <string>2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.dataJAR-recipes.download.Thunderbird ESR</string>
+    <string>com.github.jschneppe.download.Thunderbird ESR</string>
     <key>Process</key>
     <array>
         <dict>

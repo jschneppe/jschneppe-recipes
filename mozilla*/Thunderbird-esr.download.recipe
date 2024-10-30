@@ -10,7 +10,7 @@ Set the 'OS_TYPE' variable to the required Operating Systems.
 
 List of available locale codes and supported Operating Systems here: https://releases.mozilla.org/pub/thunderbird/releases/latest-esr/README.txt</string>
     <key>Identifier</key>
-    <string>com.github.dataJAR-recipes.download.Thunderbird ESR</string>
+    <string>com.github.jschneppe.download.Thunderbird ESR</string>
     <key>Input</key>
     <dict>
         <key>LOCALE</key>
