@@ -30,7 +30,7 @@ List of available locale codes and supported Operating Systems here: https://rel
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>https://download.mozilla.org/?product=thunderbird-esr-latest&amp;%OS_TYPE%&amp;lang=%LOCALE%</string>
+                <string>https://ftp.mozilla.org/?product=thunderbird-esr-latest&amp;%OS_TYPE%&amp;lang=%LOCALE%</string>
                 <key>filename</key>
                 <string>%NAME%.dmg</string>
             </dict>
