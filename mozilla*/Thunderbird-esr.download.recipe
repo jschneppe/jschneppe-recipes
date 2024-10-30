@@ -18,7 +18,7 @@ List of available locale codes and supported Operating Systems here: https://rel
         <key>OS_TYPE</key>
         <string>os=osx</string>
         <key>NAME</key>
-        <string>ThunderbirdESR</string>
+        <string>Thunderbird ESR</string>
     </dict>
     <key>MinimumVersion</key>
     <string>2.0</string>
@@ -30,7 +30,7 @@ List of available locale codes and supported Operating Systems here: https://rel
             <key>Arguments</key>
             <dict>
                 <key>url</key>
-                <string>https://ftp.mozilla.org/?product=thunderbird-esr-latest&amp;%OS_TYPE%&amp;lang=%LOCALE%</string>
+                <string>https://download.mozilla.org/?product=thunderbird-esr-latest&amp;%OS_TYPE%&amp;lang=%LOCALE%</string>
                 <key>filename</key>
                 <string>%NAME%.dmg</string>
             </dict>
