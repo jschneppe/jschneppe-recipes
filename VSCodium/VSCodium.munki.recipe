@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of VSCodium and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>jschneppe.munki.VSCodium</string>
+	<string>com.github.jschneppe.munki.VSCodium</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -20,10 +20,8 @@
 			</array>
 			<key>description</key>
 			<string>binary releases of VS Code without MS branding/telemetry/licensing</string>
-			<key>category</key>
-			<string>Developer Tools</string>
 			<key>developer</key>
-			<string>Peter Squicciarini</string>
+			<string>Baptiste Augrain</string>
 			<key>display_name</key>
 			<string>VSCodium</string>
 			<key>name</key>
@@ -33,9 +31,9 @@
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>jschneppe.download.VSCodium</string>
+	<string>com.github.jschneppe.download.VSCodium</string>
 	<key>Process</key>
 	<array>
 		<dict>
