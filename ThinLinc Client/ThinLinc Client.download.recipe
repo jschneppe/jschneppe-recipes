@@ -21,7 +21,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://www.cendio.com/downloads/clients/tl-4.17.0_3543-client-macos.iso</string>
+				<string>https://www.cendio.com/downloads/clients/tl-4.18.0_3768-client-macos.iso</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
