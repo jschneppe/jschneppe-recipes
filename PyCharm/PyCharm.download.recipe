@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=macM1</string>
+				<string>https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=macM1&code=PCC</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
