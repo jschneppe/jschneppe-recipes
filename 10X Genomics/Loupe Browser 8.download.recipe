@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.3.1 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Loupe Browser 8.</string>
+	<key>Identifier</key>
+	<string>com.github.jschneppe.download.LoupeBrowser8</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Loupe Browser 8</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>2.3</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>https://cf.10xgenomics.com/releases/cell-exp/Loupe-Browser-8.0.0.dmg?Expires=1721851519&amp;Key-Pair-Id=APKAI7S6A5RYOXBWRPDA&amp;Signature=BT7fDB~WdpiPHF9rY-HF3DJqe5kYqhHMjiXgBHdwMsIrjIQZymmf-FkXSNb1v7DNlDS2uCllNlhcnTguoWJQpiL-IJ0lhtUNMv0ZiHQR~-HUbdxO5l4Z75VS4EjdtKh5AGMnyBe4haNBhIHWcipn6aSpZCDbPKSS8WZ~PuftYaU2lf5XMUaaPotSMhFCbkWGsXamfcWIOZl1u3pzVPdfyfhDvoXlQzYzouFNpvswFm75w3CnZvNvAiPMeaCBlBgsY4VpyXk4oYK-DZyJ4ZS9QPsZTPJAsa1nvebYyJBo5oidNcN3y3jlc3DWNG6TH2F6GDhJDwgYEwLg27NnA4LvpQ__</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%pathname%/Loupe Browser 8.app</string>
+				<key>requirement</key>
+				<string>identifier "com.10xgenomics.loupecellbrowser8" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "384T6Y7Q52"</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_plist_path</key>
+				<string>%pathname%/Loupe Browser 8.app/Contents/Info.plist</string>
+				<key>plist_version_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<key>Processor</key>
+			<string>Versioner</string>
+		</dict>
+	</array>
+</dict>
+</plist>
