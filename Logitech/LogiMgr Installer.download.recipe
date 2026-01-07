@@ -8,8 +8,6 @@
 	<string>com.github.jschneppe.download.LogiMgrInstaller</string>
 	<key>Input</key>
 	<dict>
-		<key>APP_FILENAME</key>
-		<string>LogiMgr Installer *</string>
 		<key>NAME</key>
 		<string>LogiMgr Installer</string>
 	</dict>
