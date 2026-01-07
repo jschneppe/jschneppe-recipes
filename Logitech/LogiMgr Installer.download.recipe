@@ -9,7 +9,7 @@
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>LogiMgr Installer 10.22.52</string>
+		<string>LogiMgr Installer *</string>
 		<key>NAME</key>
 		<string>LogiMgr Installer</string>
 	</dict>
